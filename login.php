@@ -6,7 +6,7 @@
     
     <div class="register">
         <h2>login form</h2>
-        <form action="login.inc.php" method="post">
+        <form action="include/login.inc.php" method="post">
             <input type="text" name="name" placeholder="username/email">
             <input type="password" name="pwd" placeholder="password">
             <button type="submit" name="submit">login</button>

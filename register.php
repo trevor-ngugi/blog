@@ -6,7 +6,7 @@
     
     <div class="register">
         <h2>register form</h2>
-        <form action="signup.inc.php" method="post">
+        <form action="include/signup.inc.php" method="post">
             <input type="text" name="name" placeholder="full name">
             <input type="text" name="email" placeholder="email">
             <input type="text" name="uid" placeholder="username">
