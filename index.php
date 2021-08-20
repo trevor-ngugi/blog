@@ -50,7 +50,7 @@
     </div>
 
     <div class="bio-home">
-        <h1>Trevor Ngugi</h1>
+        <h1>bio</h1>
         <h3> A hardworking student,professional gamer/athlete and passionate about the enviroment</h3>
 
     </div>
