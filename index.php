@@ -3,6 +3,15 @@
     include_once'header.php';
     ?>
 
+<?php
+                if(isset($_SESSION["userssuid"])){
+                    
+                    echo "<p>hello there".$_SESSION["userssuid"]." </p>";
+                    
+                }
+                
+                ?>
+
     <div class="pic-1">
         <img src="images/landscape.jpg" alt="Girl in a jacket" width="100%" height="100%">
     </div>

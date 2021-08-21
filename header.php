@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 
+<?php
+session_start();
+?>
+
 <head>
     <title>porfolio</title>
     <meta charset="utf-8">
@@ -35,9 +39,19 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
-                <li class="nav-item">
+                <?php
+                if(isset($_SESSION["userssuid"])){
+                    
+                    echo "<li class='nav-item'><a class='nav-link' href='profile.php'>profile</a></li>";
+                    echo "<li class='nav-item'><a class='nav-link' href='include/logout.inc.php'>logout</a></li>";
+                }
+                else{
+                    echo "<li class='nav-item'><a class='nav-link' href='login.php'>login</a></li>";
+                }
+                ?>
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="login.php">Blog</a>
-                </li>
+                </li> -->
                 
 
             </ul>
