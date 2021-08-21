@@ -42,8 +42,24 @@ session_start();
                 </li>
                 <?php
                 if(isset($_SESSION["userssuid"])){
-                    
+                    // function for all
+                    echo "<li class='nav-item'><a class='nav-link' href='home.php'>blog</a></li>";
                     echo "<li class='nav-item'><a class='nav-link' href='profile.php'>profile</a></li>";
+                    // function for author
+                    echo "<li class='nav-item'><a class='nav-link' href='createblog.php'>create blog</a></li>";
+                    //function for admin    
+                    echo "
+                    <li class='nav-item dropdown'>
+                        <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                            Admin
+                         </a>
+                        <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
+                        <a class='dropdown-item' href='#'>Add user</a>
+                        <a class='dropdown-item' href='#'>Add category</a>
+                        <a class='dropdown-item' href='#'>Delete post</a>
+                        
+                    </li>
+                    ";
                     echo "<li class='nav-item'><a class='nav-link' href='include/logout.inc.php'>logout</a></li>";
                 }
                 else{
