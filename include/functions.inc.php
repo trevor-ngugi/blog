@@ -45,10 +45,10 @@ function pwdMatch($pwd,$pwdRepeat){
 }
 
 function uidExists($conn,$username,$email){
-    $sql="*SELECT * FROM users WHERE user_id=? or email=?;";
+    $sql="SELECT * FROM userss WHERE userssUid=? or userssEmail=?;";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
-        header("location: ../login.php?error=stmtfailed");
+        header("location: ../login.php?error=stmtfailedfuction");
         exit();
 
     }
@@ -69,7 +69,7 @@ function uidExists($conn,$username,$email){
 }
 
 function createUser($conn,$name,$email,$username,$pwd){
-    $sql="*INSERT INTO users (surname,firstname,email,password)VALUES(?,?,?,?) ;";
+    $sql="INSERT INTO userss (userssName,userssEmail,userssUid,userssPwd)VALUES(?,?,?,?) ;";
     $stmt=mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
         header("location: ../login.php?error=stmtfailed");
