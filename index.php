@@ -11,6 +11,8 @@
                 // }
                 
                 ?>
+<head><link rel="stylesheet" href="styles/style.css"></head>
+
 
     <!-- <div class="pic-1">
         <img src="images/landscape.jpg" alt="Girl in a jacket" width="100%" height="100%">
