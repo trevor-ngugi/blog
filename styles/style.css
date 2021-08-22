@@ -8,5 +8,41 @@
 
 .bio-home{
     text-align: center;
+
     
+}
+.description2{
+    background-color: #74B63E ;
+    color: #ffff;
+    /* display: inline-block; */
+}
+
+img {
+    float: left;
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.welcome-page{
+
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    /* 6FF136 */
+    /* 74B63E */
+    /* 52DB30 */
+    background-color: #74B63E ;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Muli",sans-serif;
+    color: #ffff;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Mulli&display=swap');
+*{
+    box-sizing: border-box;
 }
