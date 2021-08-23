@@ -55,20 +55,84 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-
+    
 </head>
 <body>
-    <h2>contact us<h2>
-    <form class="" accept-charset="utf-8" action="form.php" method="POST" enctype="multipart/form-data">
-        Enter Name:	<input type="text" name="name"><br>
-        Enter Email Address:	<input type="text" name="email"><br>
-        Subject:	<input type="text" name="subject"><br>
-        Enter Message:	<textarea name="message"></textarea><br>
-        <input type="submit" name="submit" >
-</form>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.php">TNG </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.php">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.php">Contact</a>
+                </li>
+                <?php
+                if(isset($_SESSION["userssuid"])){
+                    // function for all
+                    echo "<li class='nav-item'><a class='nav-link' href='home.php'>blog</a></li>";
+                    echo "<li class='nav-item'><a class='nav-link' href='profile.php'>profile</a></li>";
+                    // function for author
+                    echo "<li class='nav-item'><a class='nav-link' href='createblog.php'>create blog</a></li>";
+                    //function for admin    
+                    echo "
+                    <li class='nav-item dropdown'>
+                        <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                            Admin
+                         </a>
+                        <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
+                        <a class='dropdown-item' href='#'>Add user</a>
+                        <a class='dropdown-item' href='#'>Add category</a>
+                        <a class='dropdown-item' href='#'>Delete post</a>
+                        
+                    </li>
+                    ";
+                    echo "<li class='nav-item'><a class='nav-link' href='include/logout.inc.php'>logout</a></li>";
+                }
+                else{
+                    echo "<li class='nav-item'><a class='nav-link' href='login.php'>login</a></li>";
+                }
+                ?>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="login.php">Blog</a>
+                </li> -->
+                
+
+            </ul>
+        </div>
+    </nav>
+
+
+<div class="body2">
+
+    
+
+<div class="box">
+
+            <img src="images/draw.png" alt="pic">
+            <h2>contact details</h2>
+            <p>
+                put links to github and linkedin
+            </p>
+            <div class="form-control" accept-charset="utf-8" action="form.php" method="POST" enctype="multipart/form-data">
+                <input type="text" name="name" class="input" placeholder="enter your name">
+                <input type="email"name="email"  class="input" placeholder="enter your email">
+                <input type="text" name="subject" class="input" placeholder="enter subject">
+                <input type="text" name="message" class="input" placeholder="enter message">
+                <button class="btn">submit</button>
+            </div>
+        </div>
 
 
    
@@ -80,6 +144,7 @@ echo "</pre>";
 
 
 
+</div>
 </body>
 <!-- <script>
 // console.info('virtual email sent from sendmail.php.');
