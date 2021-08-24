@@ -2,14 +2,15 @@
     <?php 
     include_once'header.php';
     ?>
-
-    
+    <link rel="stylesheet" href="styles/login.css">
+    <div class="bg">
     <div class="register">
+        <img src="images/login.png" alt="pic">
         <h2>login form</h2>
-        <form action="include/login.inc.php" method="post">
-            <input type="text" name="uid" placeholder="username/email">
-            <input type="password" name="pwd" placeholder="password">
-            <button type="submit" name="submit">login</button>
+        <form action="include/login.inc.php" method="post" class="form">
+            <input type="text"     class="input" name="uid" placeholder="username/email">
+            <input type="password" class="input" name="pwd" placeholder="password">
+            <button type="submit" class="btn" name="submit">login</button>
         </form>
         <a href="register.php">register</a>
         <?php 
@@ -41,6 +42,7 @@
         }
     }
     ?>
+    </div>
     </div>
 
     <?php 
