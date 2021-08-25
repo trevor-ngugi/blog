@@ -37,7 +37,7 @@ session_start();
                     <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.php">Portfolio</a>
+                    <a class="nav-link" href="portfolio.php">Gallery</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>

@@ -22,23 +22,14 @@
     </div>
 
     <div class="bio-home">
-        <h1>BIO</h1>
+        <h1>ABOUT ME</h1>
     </div>
-
-    <!-- description -->
-    <div class="container-fluid">
-        <div class="description">
-
-            <div class="row">
-                <div class="col-sm-1 col-md-1 col-lg-1">
-
-                </div>
-                <div class="col-sm-1 col-md-12 col-lg-6">
-                    <img src="images/profile.jpg" alt="Girl in a jacket" width="100%" >
-
-                </div>
-                <div class="col-sm-1 col-md-12 col-lg-5">
-                    <div class="description2">
+    <div class="container">
+      <div class="image">
+        <img src="images/profile2.jpeg">
+      </div>
+      <div class="text">
+      <h3>am trevor ngugi  admission number 133996</h3>
                     <h3> A hardworking student,professional gamer/athlete and passionate about the enviroment</h3>
                     <h4>
                         Currently studying at strathmore university doing Bachelor of Business in Information of
@@ -47,14 +38,13 @@
                         <ol>
                             <li>a risk taker</li>
                             <li>am innovative</li>
-                            <li>alwaysguve 100% to each project</li>
+                            <li>always gIve 100% to each project</li>
                         </ol>
                     </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+
+
     <script src="script/script.js"></script>
     <?php 
     include_once'footer.php';

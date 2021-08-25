@@ -8,11 +8,12 @@
 
 .bio-home{
     text-align: center;
+    padding-bottom: 5%;
 
     
 }
 .description2{
-    background-color: #74B63E ;
+    background-color: #52DB30;
     color: #ffff;
     /* display: inline-block; */
 }
@@ -32,7 +33,7 @@ img {
     /* 6FF136 */
     /* 74B63E */
     /* 52DB30 */
-    background-color: #74B63E ;
+    background-color: #52DB30;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -46,3 +47,22 @@ img {
 *{
     box-sizing: border-box;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50%;
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 40%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 220px;
+    background-color: grey;
+  }
