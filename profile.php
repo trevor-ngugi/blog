@@ -11,7 +11,7 @@ include_once 'header.php';
                         <div class="col-sm-4 bg-c-lite-green user-profile">
                             <div class="card-block text-center text-white">
                                 <div class="m-b-25"> <img src="https://img.icons8.com/bubbles/100/000000/user.png" class="img-radius" alt="User-Profile-Image"> </div>
-                                <h6 class="f-w-600">surname Tingor</h6>
+                                <h6 class="f-w-600">surname morto</h6>
                                
                             </div>
                         </div>
@@ -21,17 +21,17 @@ include_once 'header.php';
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <p class="m-b-10 f-w-600">first name</p>
-                                        <h6 class="text-muted f-w-400">trevor</h6>
+                                        <h6 class="text-muted f-w-400">morto</h6>
                                     </div>
                                     <div class="col-sm-6">
                                         <p class="m-b-10 f-w-600">lastname</p>
-                                        <h6 class="text-muted f-w-400">ngugi</h6>
+                                        <h6 class="text-muted f-w-400">morty4</h6>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <p class="m-b-10 f-w-600">Email</p>
-                                        <h6 class="text-muted f-w-400">rntng@gmail.com</h6>
+                                        <h6 class="text-muted f-w-400">ngugitrevor4@gmail</h6>
                                     </div>
                                     <div class="col-sm-6">
                                         <p class="m-b-10 f-w-600">role</p>

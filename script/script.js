@@ -1,5 +1,5 @@
 const text=document.getElementById("text")
-const prog="hello there welcome to trevors ngugi resume"
+const prog="Hello there welcome to Trevor Ngugi resume"
 let idx=1
 
 setInterval(writeText,200);

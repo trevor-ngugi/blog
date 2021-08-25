@@ -122,9 +122,11 @@
 
             <img src="images/draw.png" alt="pic">
             <h2>contact details</h2>
-            <p>
+            <a href="https://github.com/trevor-ngugi">github</a>
+            <a href="https://www.linkedin.com/in/trevor-ngugi-390aa8168/">linkedin</a>
+            <!-- <p>
                 put links to github and linkedin
-            </p>
+            </p> -->
             <div class="form-control" accept-charset="utf-8" action="form.php" method="POST" enctype="multipart/form-data">
                 <input type="text" name="name" class="input" placeholder="enter your name">
                 <input type="email"name="email"  class="input" placeholder="enter your email">

@@ -18,6 +18,7 @@
             <input class="input" type="password" name="pwdrepeat" placeholder="repeat password"><br><br>
             <button type="submit" class="btn"name="submit">sign up</button><br>
         </form>
+        <a href="login.php">already have an account login here</a>
         <?php 
     if(isset($_GET["error"])){
         if($_GET["error"]=="emptyinput"){

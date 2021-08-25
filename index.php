@@ -29,7 +29,7 @@
         <img src="images/profile2.jpeg">
       </div>
       <div class="text">
-      <h3>am trevor ngugi  admission number 133996</h3>
+      <h3>Am Trevor Ngugi  admission number 133996</h3>
                     <h3> A hardworking student,professional gamer/athlete and passionate about the enviroment</h3>
                     <h4>
                         Currently studying at strathmore university doing Bachelor of Business in Information of

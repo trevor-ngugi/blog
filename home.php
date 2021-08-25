@@ -5,7 +5,7 @@ $sql = "SELECT *FROM post;";
 $result = mysqli_query($conn, $sql);
 $resultCheck = mysqli_num_rows($result);
 ?>
-<h1>anoxer</h2>
+<h1>anoxer blogs</h2>
 <?php
 if ($resultCheck > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
@@ -22,7 +22,7 @@ if ($resultCheck > 0) {
                       <a href='#' class='card-link'>comment</a>
                     </div>
                     <ul class='list-group list-group-flush'>
-                      <li class='list-group-item'>category:Cras justo odio</li>
+                      <li class='list-group-item'>category:</li>
                       <li class='list-group-item'>people comments</li>
                       <li class='list-group-item'>people comments</li>
                     </ul>
